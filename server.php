@@ -1,9 +1,9 @@
 <?php
 
-$server = "localhost";
-$username = "root";
-$password = "";
-$database = "projectberita";
+$server = "sql113.intl.uk.to";
+$username = "intl_17171126";
+$password = "15juni95";
+$database = "intl_17171126_projectberita";
 
 mysql_connect($server, $username, $password) or die("<h1>Koneksi Mysql Error : </h1>" . mysql_error());
 mysql_select_db($database) or die("<h1>Koneksi Kedatabase Error : </h1>" . mysql_error());
